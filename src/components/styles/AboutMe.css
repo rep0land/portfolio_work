@@ -1,9 +1,10 @@
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
     /* Estilos para móviles */
     .about_box {
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
         background-color: rgba(255, 100, 100, 0);
         height: 100vh;
         width: 100%;
@@ -24,9 +25,9 @@
     }
     
     .title_about {
-        margin-top: 0.3em;
+        margin-top: 0.1em;
         background-color: rgba(255, 92, 92, 0);
-        font-size: 3.7em;
+        font-size: 3.3em;
         color: #ffffff;
     }
     
@@ -42,12 +43,12 @@
         margin-top: 10px;
         padding-left: 10px;
         padding-top: 2px;
-        font-size: 1.15em;
+        font-size: 1em;
         color: rgb(255, 255, 255);
     }
 
     .space_about {
-        height: 15em;
+        height: 11em;
     }
     
     .phrase_about {
@@ -56,7 +57,7 @@
         text-align: center;
         max-width: 400px;
         color: #272727;
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
     
     .phrase_about:hover {
@@ -75,19 +76,121 @@
     .cuadro_cv {
         background-color: rgb(255, 255, 255);
         margin-top: 2.5em;
-        height: 8em;
-        width: 13em;
+        height: 6em;
+        width: 11em;
     }
     
     .cv {
         background-color: rgba(182, 74, 228, 0.644);
         display: block;
         height: 1.3em;
-        width: 5em;
+        width:4.6em;
         text-align: center;
         color: rgb(255, 255, 255);
         text-decoration: none;
-        font-size: 1.6em;
+        font-size: 1.4em;
+    }
+    
+    .cv:hover {
+        background-color: #272727;
+        color: #ffff;
+        cursor: pointer;
+        transform: scale(0.95);
+    }    
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Estilos para tablets */
+    .about_box {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: rgba(255, 100, 100, 0);
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .container_box_about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        background-color: rgba(238, 168, 82, 0);
+    }
+
+    .text_container_about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .title_about {
+        margin-top: 0.4em;
+        background-color: rgba(255, 92, 92, 0);
+        font-size: 3.3em;
+        color: #ffffff;
+    }
+    
+    .linea_about {
+        background-color: rgb(255, 255, 255);
+        height: 5px;
+        width: 65%;
+    }
+    
+    .text_about {
+        background-color: rgba(182, 74, 228, 0.644);
+        width: 80%;
+        max-width: 570px;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-top: 2px;
+        font-size: 1em;
+        color: rgb(255, 255, 255);
+    }
+
+    .space_about {
+        height: 11.5em;
+    }
+    
+    .phrase_about {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        max-width: 400px;
+        color: #272727;
+        font-size: 1.3em;
+    }
+    
+    .phrase_about:hover {
+        color: #ffff;
+        cursor: pointer;
+        transition: 1s;
+        transform: scale(1.15);
+    }
+
+    .cv_container_about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cuadro_cv {
+        background-color: rgb(255, 255, 255);
+        margin-top: 2.5em;
+        height: 6em;
+        width: 11em;
+    }
+    
+    .cv {
+        background-color: rgba(182, 74, 228, 0.644);
+        display: block;
+        height: 1.3em;
+        width:4.6em;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 1.4em;
     }
     
     .cv:hover {
@@ -123,7 +226,7 @@
     }
 
     .title_about {
-        margin-top: 0.5em;
+        margin-top: 0.3em;
         background-color: rgba(255, 92, 92, 0);
         font-size: 3.7em;
         color: #ffffff;
@@ -146,7 +249,7 @@
     }
 
     .space_about {
-        height: 15em;
+        height: 12.5em;
     }
     
     .phrase_about {
@@ -174,19 +277,19 @@
     .cuadro_cv {
         background-color: rgb(255, 255, 255);
         margin-top: 2.5em;
-        height: 8em;
-        width: 13em;
+        height: 6em;
+        width: 11em;
     }
     
     .cv {
         background-color: rgba(182, 74, 228, 0.644);
         display: block;
         height: 1.3em;
-        width: 5em;
+        width: 4.6em;
         text-align: center;
         color: rgb(255, 255, 255);
         text-decoration: none;
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     
     .cv:hover {
@@ -198,7 +301,7 @@
 }
 
 @media (min-width: 1201px) {
-    /* Estilos para laptops2 */
+    /* Estilos para desktop */
     .about_box {
         display: flex;
         flex-flow: row nowrap;
@@ -217,16 +320,14 @@
         background-color: rgba(0, 255, 255, 0);
     }
 
-    .text_container_about {
+    .text_container_about { 
         display: flex;
         flex-direction: column;
-        margin-top: 1.5em;
         align-items: center;
-       
     }
      
     .title_about {
-        margin-top: 0.6em;
+        margin-top: 0.3em;
         background-color: rgba(255, 92, 92, 0);
         font-size: 7em;
         color: #ffffff;

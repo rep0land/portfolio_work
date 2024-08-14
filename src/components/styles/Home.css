@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px){
     /* Estilos para móviles */
     .home_box {
         height: 100vh;
@@ -9,11 +9,11 @@
     .home_container {
         display: flex;
         flex-direction: column;
-        margin-top: 3.3em;
-        gap: 7em 0em;
+        margin-top: 2.8em;
+        gap: 6.5em 0em;
         max-width: 796px;
         color: rgb(81, 77, 81);
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .text_one {
@@ -31,7 +31,39 @@
     } 
 }
 
-@media (min-width: 769px) {
+@media (min-width: 481px) and (max-width: 768px) { 
+    /* Estilos para tablets */
+    .home_box {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .home_container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.8em;
+        gap: 6.5em 0em;
+        max-width: 796px;
+        color: rgb(81, 77, 81);
+        font-size: 2.2em;
+    }
+
+    .text_one {
+        text-align: center;
+    }
+
+    .text_two {
+        text-align: center;
+    }
+
+    .home_container:hover {
+        color: #ffff;
+        cursor: pointer;
+        transition: 1s;
+    } 
+ }
+
+@media (min-width: 769px) and (max-width: 1200px) {
     /* Estilos para laptops */
     .home_box {
         display: flex;
@@ -43,7 +75,7 @@
     .home_container {
         display: flex;
         flex-direction: column;
-        margin-top: 1.5em;
+        margin-top: 1.3em;
         gap: 7em 0em;
         max-width: 796px;
         color: rgb(81, 77, 81);
@@ -64,5 +96,41 @@
         transition: 1s;
     } 
 }
+
+@media (min-width: 1201px) {
+    /* Estilos para desktop */
+    .home_box {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .home_container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.4em;
+        gap: 6.6em 0em;
+        max-width: 796px;
+        color: rgb(81, 77, 81);
+        font-size: 2.5em;
+    }
+
+    .text_one {
+        text-align: center;
+    }
+
+    .text_two {
+        text-align: center;
+    }
+
+    .home_container:hover {
+        color: #ffff;
+        cursor: pointer;
+        transition: 1s;
+    } 
+}
+
+
 
 

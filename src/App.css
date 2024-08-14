@@ -11,9 +11,23 @@
 }
 
 
-@media (max-width: 1200px) {
-
+@media (min-width: 320px) and (max-width: 480px) {
     /* Estilos para móviles */
+    .loading {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        padding-top: 21.8em;
+        background-color: rgba(33, 105, 105, 0);
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    /* Estilos para tablets */
     .loading {
         display: flex;
         flex-wrap: wrap;
@@ -28,7 +42,6 @@
 }
 
 @media (min-width: 1201px) {
-
     /* Estilos para desktop */
     .loading {
         display: flex;
