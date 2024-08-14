@@ -1,0 +1,505 @@
+
+@media (max-width: 768px) {
+    /* Estilos para móviles */
+    .skills_box {
+        display: flex;
+        flex-flow: row wrap;
+        background-color: rgba(255, 218, 132, 0);
+        width: 100%;
+        height: 100vh;  
+    } 
+    
+    .container_box_skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        background-color: rgba(238, 168, 82, 0);
+    }
+
+    .text_container_skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        background-color: rgba(238, 168, 82, 0);
+    }
+    
+    .title_skills {
+        margin-top: 0.3em;
+        background-color: rgba(255, 92, 92, 0);
+        font-size: 3.7em;
+        color: #ffffff;
+    }
+    
+    .linea_skills {
+        background-color: rgb(255, 255, 255);
+        height: 5px;
+        width: 65%;
+    }
+    
+    .text_skills {
+        background-color: rgb(177, 0, 53);
+        width: 80%;
+        margin-top: 10px;
+        text-align: center;
+        padding: 0.3em 0em;
+        font-size: 1.15em;
+        color: rgb(255, 255, 255);
+    }
+    
+    .text_skills2 {
+        background-color: rgba(206, 105, 135, 0.694);
+        text-align: center;
+        width: 80%;
+        padding: 0.2em 0em;
+        font-size: 1.25em;
+        color: rgb(255, 255, 255);
+    }
+    
+    .icons_skills {
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+        margin-top: 14em;
+        gap: 2em 3em;
+        justify-content: center;
+        background-color: rgba(206, 105, 135, 0);
+    }
+    
+    .logoreact {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logoreact:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logocss {
+        display: block;
+        height: 5em;
+        width: 5em;
+        transition: 1s;
+    }
+    
+    .logocss:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logohtml {
+        display: block;
+        height: 5em;
+        width: 5em;
+        transition: 1s;
+    }
+    
+    .logohtml:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logojs {
+        display: block;
+        height: 3em;
+        width: 3em;
+        transition: 1s;
+    }
+    
+    .logojs:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logogit {
+        display: block;
+        height: 3em;
+        width: 3em;
+        transition: 1s;
+    }
+    
+    .logogit:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logopostgre {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logopostgre:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logopostman {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logopostman:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logonode {
+        display: block;
+        height: 6em;
+        width: 6em;
+        transition: 1s;
+    }
+    
+    .logonode:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }     
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    /* Estilos para laptops */
+    .skills_box {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: rgba(255, 218, 132, 0);
+        width: 100%;
+        height: 100vh;  
+    } 
+    
+    .container_box_skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        background-color: rgba(238, 168, 82, 0);
+    }
+
+    .text_container_skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 93%;
+        background-color: rgba(238, 168, 82, 0);
+    }
+    
+    .title_skills {
+        margin-top: 0.3em;
+        background-color: rgba(255, 92, 92, 0);
+        font-size: 3.7em;
+        color: #ffffff;
+    }
+    
+    .linea_skills {
+        background-color: rgb(255, 255, 255);
+        height: 5px;
+        width: 65%;
+        max-width: 450px;
+    }
+    
+    .text_skills {
+        background-color: rgb(177, 0, 53);
+        width: 80%;
+        max-width: 600px;
+        margin-top: 10px;
+        text-align: center;
+        padding: 0.3em 0em;
+        font-size: 1.15em;
+        color: rgb(255, 255, 255);
+    }
+    
+    .text_skills2 {
+        background-color: rgba(206, 105, 135, 0.694);
+        text-align: center;
+        width: 80%;
+        max-width: 600px;
+        padding: 0.2em 0em;
+        font-size: 1.25em;
+        color: rgb(255, 255, 255);
+    }
+    
+    .icons_skills {
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 600px;
+        margin-top: 16.5em;
+        gap: 2em 3em;
+        justify-content: center;
+        background-color: rgba(206, 105, 135, 0);
+    }
+    
+    .logoreact {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logoreact:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logocss {
+        display: block;
+        height: 5em;
+        width: 5em;
+        transition: 1s;
+    }
+    
+    .logocss:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logohtml {
+        display: block;
+        height: 5em;
+        width: 5em;
+        transition: 1s;
+    }
+    
+    .logohtml:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logojs {
+        display: block;
+        height: 3em;
+        width: 3em;
+        transition: 1s;
+    }
+    
+    .logojs:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logogit {
+        display: block;
+        height: 3em;
+        width: 3em;
+        transition: 1s;
+    }
+    
+    .logogit:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logopostgre {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logopostgre:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logopostman {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logopostman:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logonode {
+        display: block;
+        height: 6em;
+        width: 6em;
+        transition: 1s;
+    }
+    
+    .logonode:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }     
+}
+
+@media (min-width: 1201px) {
+    /* Estilos para laptop 2*/
+    .skills_box { 
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        background-color: rgba(255, 218, 132, 0);
+        width: 100%;
+        height: 100vh;  
+    } 
+    
+    .container_box_skills {
+        display: flex;
+        flex-direction: row;
+        gap: 0em 18em;
+    }
+
+    .text_container_skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0em;
+    }
+    
+    .title_skills {
+        margin-top: 0.6em;
+        background-color: rgba(255, 92, 92, 0);
+        font-size: 8em;
+        color: #ffffff;
+    }
+    
+    .linea_skills {
+        background-color: rgb(255, 255, 255);
+        height: 5px;
+        width: 19em;
+        margin-top: -1em;
+        max-width: 450px;
+    }
+    
+    .text_skills {
+        background-color: rgb(177, 0, 53);
+        width: 15em;
+        margin-top: 10px;
+        text-align: center;
+        padding: 0.5em 0em;
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+    }
+    
+    .text_skills2 {
+        background-color: rgba(206, 105, 135, 0.694);
+        text-align: center;
+        width: 15em;
+        max-width: 600px;
+        padding: 0.4em 0em;
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+    }
+    
+    .icons_skills {
+        display: flex;
+        flex-flow: column wrap;
+        width: 420px;
+        margin-top: 3.5em;
+        height: 450px;
+        gap: 4em 3.5em;
+        justify-content: center;
+    }
+    
+    .logoreact {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logoreact:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logocss {
+        display: block;
+        height: 5em;
+        width: 5em;
+        transition: 1s;
+    }
+    
+    .logocss:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logohtml {
+        display: block;
+        height: 5em;
+        width: 5em;
+        transition: 1s;
+    }
+    
+    .logohtml:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logojs {
+        display: block;
+        height: 3em;
+        width: 3em;
+        transition: 1s;
+    }
+    
+    .logojs:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logogit {
+        display: block;
+        height: 3em;
+        width: 3em;
+        transition: 1s;
+    }
+    
+    .logogit:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logopostgre {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logopostgre:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logopostman {
+        display: block;
+        height: 4em;
+        width: 4em;
+        transition: 1s;
+    }
+    
+    .logopostman:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }
+    
+    .logonode {
+        display: block;
+        height: 6em;
+        width: 6em;
+        transition: 1s;
+    }
+    
+    .logonode:hover {
+        cursor: pointer;
+        transform: scale(1.95);
+    }     
+}
+
+
+
+
+

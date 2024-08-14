@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Asegura que el contenedor principal ocupe toda la altura de la ventana */
+    overflow: hidden;
+}
+
+
+@media (max-width: 1200px) {
+
+    /* Estilos para móviles */
+    .loading {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        padding-top: 23em;
+        background-color: rgba(33, 105, 105, 0);
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    /* Estilos para desktop */
+    .loading {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        padding-top: 17em;
+        padding-left: 1em;
+        background-color: rgba(33, 105, 105, 0);
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+    }
+}
